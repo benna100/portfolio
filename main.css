@@ -1,7 +1,6 @@
 body {
   font-family: Open Sans, sans-serif;
   background-color: #f9fbfd;
-  overflow: hidden;
   color: #383838;
 }
 
@@ -11,12 +10,17 @@ body {
 
 main {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 36px auto;
   font-size: 1.5rem;
   line-height: 2.5rem;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
 }
 
 hr {
-  margin-bottom: 36px;
+  margin: 36px 0 36px;
 }
-
