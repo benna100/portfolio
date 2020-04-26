@@ -1,0 +1,22 @@
+body {
+  font-family: Open Sans, sans-serif;
+  background-color: #f9fbfd;
+  overflow: hidden;
+  color: #383838;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+hr {
+  margin-bottom: 36px;
+}
+
