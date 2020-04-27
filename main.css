@@ -39,3 +39,15 @@ h1 {
 hr {
   margin: 36px 0 36px;
 }
+
+.about-me {
+  margin-bottom: 36px;
+}
+
+ul {
+  display: flex;
+}
+
+ul > li:not(:last-child) {
+    margin-right: 12px;
+}
