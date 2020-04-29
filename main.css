@@ -36,22 +36,45 @@ h1 {
   }
 }
 
-hr {
+section.about-me hr {
   margin: 36px 0 36px;
 }
 
-.about-me {
-  margin-bottom: 36px;
+
+section:not(:last-child) {
+  margin-bottom: 60px;
 }
 
 strong {
   background-color: #FFE0CE;
 }
 
-ul {
+section.social ul {
   display: flex;
 }
 
-ul > li:not(:last-child) {
+section.social ul > li:not(:last-child) {
     margin-right: 12px;
 }
+
+section.talks ul > li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 700px) {
+  section.projects ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+section.projects ul li {
+  margin-bottom: 24px;
+  font-size: 1.4rem;
+}
+
+
