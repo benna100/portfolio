@@ -44,6 +44,10 @@ hr {
   margin-bottom: 36px;
 }
 
+strong {
+  background-color: #FFE0CE;
+}
+
 ul {
   display: flex;
 }
