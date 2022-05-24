@@ -63,6 +63,7 @@ section.projects ul li {
 form.newsletter input.email {
   padding: 8px;
   margin-right: 8px;
+  width: 200px;
 }
 
 form.newsletter h3 {
