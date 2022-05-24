@@ -23,7 +23,6 @@ main {
   }
 }
 
-
 h1 {
   font-size: 3rem;
   line-height: 4rem;
@@ -40,21 +39,12 @@ section.about-me hr {
   margin: 36px 0 36px;
 }
 
-
 section:not(:last-child) {
   margin-bottom: 60px;
 }
 
 strong {
-  background-color: #FFE0CE;
-}
-
-section.social ul {
-  display: flex;
-}
-
-section.social ul > li:not(:last-child) {
-    margin-right: 12px;
+  background-color: #ffe0ce;
 }
 
 section.talks ul > li:not(:last-child) {
@@ -77,8 +67,109 @@ section.projects ul li {
   font-size: 1.4rem;
 }
 
-
-section.contact a {
-  font-size: 1.1rem;
+form.newsletter input.email {
+  padding: 8px;
+  margin-right: 8px;
 }
 
+form.newsletter h3 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+form.newsletter p {
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS */
+input.subscribe {
+  align-items: center;
+  background-color: #ffe0ce;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  padding: 8px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+form.newsletter input.subscribe:hover,
+form.newsletter input.subscribe:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+form.newsletter input.subscribe:hover {
+  transform: translateY(-1px);
+}
+
+form.newsletter input.subscribe:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0px;
+  font-size: 1rem;
+  padding: 24px;
+  background-color: dimgray;
+  color: white;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-right: 8px;
+}
+footer a {
+  color: white;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+@media only screen and (max-width: 600px) {
+  footer ul.email-links {
+    flex-direction: column;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+  footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+footer h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
