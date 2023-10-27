@@ -174,3 +174,7 @@ section.links ul li {
   margin-bottom: 16px;
   font-size: 1.2rem;
 }
+
+.ai {
+  display: none;
+}
