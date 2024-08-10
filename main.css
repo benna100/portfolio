@@ -47,7 +47,7 @@ strong {
   background-color: #ffe0ce;
 }
 
-section.talks ul > li:not(:last-child) {
+section.research ul > li:not(:last-child) {
   margin-bottom: 12px;
 }
 
